@@ -1,0 +1,26 @@
+spring:
+ # profiles:
+  #  active: production
+  logging:
+    level:
+        org.springframework.web: DEBUG
+   
+server:
+  port: 8762
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://eureka:123456789@localhost:8761/eureka/}
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+      
+security:
+  basic:
+    enabled: true
+  user:
+    name: zuul
+    password: 123456789
