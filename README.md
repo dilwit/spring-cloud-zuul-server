@@ -7,4 +7,4 @@
 - Load balancer
 - Edge service with routing -> TODO
 - Works with eureka discovery server to learn about available services
-- Automatic refresh as services changes at eureka discovery server
+- Automatic refresh as services changes at eureka discovery server -> TODO
