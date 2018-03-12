@@ -5,6 +5,5 @@
 
 # Zuul
 - Load balancer
-- Edge service with routing -> TODO
-- Works with eureka discovery server to learn about available services
+- Is also EurekaClient (use @EnableDiscoveryClient annotation) it will discover all the services and automatically will create routes
 - Automatic refresh as services changes at eureka discovery server -> TODO
